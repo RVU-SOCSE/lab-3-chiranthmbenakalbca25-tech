@@ -1,1 +1,15 @@
 1.	Basic Shell Script for Job Scheduling: Develop a shell script that takes a list of commands and executes them with a specified delay using the sleep command. Demonstrate job scheduling in the shell.
+
+echo "job 1:Display Date"
+date
+echo "job 2:Display current user"
+whoami
+echo "job 3:Display Calender"
+cal
+echo "job 4:List of files"
+ls
+echo "job 5:Display my system data"
+date +"%T"
+echo "job6"
+pwd
+echo "All jobs are finished  "
